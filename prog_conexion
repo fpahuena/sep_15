@@ -1,0 +1,14 @@
+mjjooioiiño
+public static void main(String[] args) {
+//FILO = PRIMERO EN ENTRAR ULTIMO EN SALIR
+//Vamos a crear una pila
+	Stack pilax = new Stack();
+	pilax.push(50); //insertamos el numero 50
+	pilax.push("sss");//insetamos sss
+//metodo empty para saber el estado
+//metodo peek para ver el ultimo
+//metodo pop para quitar el ultimo
+	System.out.println("el ultimo de la pila es: \n"+pilax.peek());
+	System.out.println("La pila esta llena \n");
+
+	while(pilax.empty()==false) {
